@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  color: #ffffff;
+}
+body {
+  font-family: "inter";
+}
+
+.container {
+  width: 550px;
+  height: 729px;
+  margin: auto;
+  background-color: #1f2937;
+  font-family: inherit;
+  margin-bottom: 20px;
+}
+
+.uperpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: inherit;
+  height: 285px;
+  background: #6943ff;
+}
+.input-Content {
+  width: 117px;
+  height: 83px;
+  text-align: center;
+  font-size: 58px;
+  font-weight: 800;
+  color: #ffffff;
+  background: #6943ff;
+  border-color: #b295ff;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 0.5px;
+}
+
+.click-btn {
+  width: 117px;
+  height: 42px;
+  border-radius: 5px;
+  border-style: none;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.lowerPart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  margin-top: 30px;
+}
+.lowerPart h2 {
+  color: #ccc1ff;
+}
+#length-Part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+  height: 108.57px;
+  background: #273549;
+  font-family: inherit;
+  font-style: normal;
+}
+#volume-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+  height: 108.57px;
+  background: #273549;
+  font-family: inherit;
+  font-style: normal;
+}
+
+#mass-part {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 500px;
+  height: 108.57px;
+  background: #273549;
+  font-family: inherit;
+  font-style: normal;
+}
+.display-lenresult {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+.display-VolResult {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+.display-mass {
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 370px;
+    margin: auto;
+  }
+  h1 {
+    text-align: center;
+  }
+  .uperpart {
+    max-width: 370px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .lowerPart {
+    max-width: inherit;
+  }
+  #length-Part {
+    max-width: 350px;
+    margin: auto;
+  }
+  #mass-part {
+    max-width: 350px;
+    margin: auto;
+  }
+  #volume-part {
+    max-width: 350px;
+    margin: auto;
+  }
+}
