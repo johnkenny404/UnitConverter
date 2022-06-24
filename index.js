@@ -13,12 +13,12 @@ convertBtn.addEventListener("click", function () {
 
   lengthMeter.textContent = `${BaseValue} Meters = ${
     BaseValue * 3.281
-  }Feets | ${BaseValue} Feets = ${BaseValue / 3.281}`;
+  }Feets | ${BaseValue} Feets = ${BaseValue / 3.281}Meters`;
 
   Volume.textContent = `${BaseValue} Volume = ${
     BaseValue * 0.264
-  }Feets | ${BaseValue} Feets = ${BaseValue / 0.264}`;
+  }Gallons | ${BaseValue} Gallons = ${BaseValue / 0.264}Volume`;
   Kilo.textContent = `${BaseValue} Kilogram = ${
-    BaseValue * 2.204
-  }Feets | ${BaseValue} Feets = ${BaseValue / 2.204}`;
+    BaseValue * 2.205
+  }Pounds | ${BaseValue} Pounds = ${BaseValue / 2.204}Kilograms`;
 });
